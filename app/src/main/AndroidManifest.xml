@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PayOffet">
         <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
             android:name=".verification"
             android:exported="false" />
         <activity

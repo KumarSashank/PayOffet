@@ -14,7 +14,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        mImageView=findViewById(R.id.get_otp);
+        mImageView=findViewById(R.id.sign_up);
         mImageView.setOnClickListener(new View.OnClickListener() {
 
             @Override
