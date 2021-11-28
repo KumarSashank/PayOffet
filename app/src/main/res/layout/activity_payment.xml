@@ -88,7 +88,7 @@
         app:srcCompat="@drawable/ic_online" />
 
     <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/online_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/imageView28"
@@ -104,14 +104,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView29"
+        app:layout_constraintBottom_toTopOf="@+id/offline_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_swiper" />
 
     <ImageView
-        android:id="@+id/imageView29"
+        android:id="@+id/offline_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
